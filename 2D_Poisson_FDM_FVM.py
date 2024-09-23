@@ -1,5 +1,5 @@
 # Solution of 2D Poisson's Equation with FDM
-# Joao Pedro Colaco Romana (5625866) 2022
+# Joao Pedro Colaco Romana 2022
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.sparse as sp
