@@ -129,7 +129,7 @@ if option == 1:
     plt.spy(A)
     plt.grid('on')
     plt.title(r'Structure of Matrix $A$ for $N_x=$' + str(Nx) + r" and $N_y=$" + str(Ny))
-    plt.savefig('matrix_structure_Nx%02d_Ny%02d.png' % (Nx, Ny), bbox_inches='tight', dpi = 300)
+    plt.savefig('FDM_matrix_structure_Nx%02d_Ny%02d.png' % (Nx, Ny), bbox_inches='tight', dpi = 300)
 
     x, y = np.mgrid[LeftX + dx:RightX:dx, LeftY + dy:RightY:dy]
     print(x, y)
